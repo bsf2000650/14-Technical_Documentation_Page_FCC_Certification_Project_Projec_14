@@ -56,3 +56,38 @@ aside ul  a{
     text-decoration: none;
     color: rgb(87, 83, 83);;
 }
+
+@media only screen and (max-width: 815px) {
+    aside{
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 255px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+    }
+    aside ul{
+        height: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-left: 0;
+    }
+    main{
+        position: absolute;
+        margin-top: 276px;
+        margin-left: 0;
+        background-color: white;
+        /* z-index: 1; */
+    }
+    h1{
+        text-align: center;
+        margin: 5px 0;
+    }
+    main h1{
+        text-align: left;
+    }
+}
